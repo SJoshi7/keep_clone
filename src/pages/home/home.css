@@ -1,14 +1,17 @@
 header .add, .logout {
 	position: absolute;
-	top: 0;
 	color: white;
 	margin: 0;
 	font-size: 100%;
 	border-radius: 0%;
-	background: linear-gradient( #700, #600);
+	background: linear-gradient( #0fa0d9, #63368f);
 	padding: 5px 2% 10px 2%;
-	height: 100%;
 	border: 0;
+
+	right: 2%;
+	height: 40px;
+	top:5px;
+	border-radius: 7px;
 }
 .search-input {
 	display: inline;
@@ -16,19 +19,22 @@ header .add, .logout {
 header h2{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	padding: 10px 0 0 0;
-	font-size: 1em;
+	font-size: 1.5em;
+	color:black;
 	font-weight: bold;
 	letter-spacing: 0.4em;
 }
-header .logout {
-	right: 0;
-}
+
 header .add {
-	left: 0;
+	left: 1%;
+	/* button style */
+	height: 40px;
+	top:5px;
+	border-radius: 7px;
 }
-.add:hover, .logout:hover {
+/* .add:hover, .logout:hover {
 	background: linear-gradient( #900, #700);
-}
+} */
 .delete {
 	position: sticky;
 	float: right;
@@ -49,10 +55,10 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: linear-gradient( #000, #400);
+	background: white;
 	z-index: 999;
 	overflow: hidden;
-	height: 40px;
+	height: 50px;
 }
 .bodyapp{
 	overflow: scroll;
