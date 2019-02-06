@@ -121,7 +121,7 @@ componentWillUnmount() {
                     <form id="Login">
                        <form>
                             <div className="form-group">
-                                <label for="exampleFormControlFile1">Email Adress</label>
+                                <label for="exampleFormControlFile1">Email Address</label>
                                 <input value={this.state.email} onChange={this.handleChange} name="email" type="email" className="form-control" id="inputEmail" required/>
                             </div>
                         </form>
