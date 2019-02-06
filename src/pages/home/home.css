@@ -7,11 +7,11 @@ header .add, .logout {
 	background: linear-gradient( #0fa0d9, #63368f);
 	padding: 5px 2% 10px 2%;
 	border: 0;
-
-	right: 2%;
+	right: 1%;
 	height: 40px;
 	top:5px;
 	border-radius: 7px;
+	box-shadow: 2px 2px black;
 }
 .search-input {
 	display: inline;
@@ -31,22 +31,23 @@ header .add {
 	height: 40px;
 	top:5px;
 	border-radius: 7px;
+	box-shadow: 2px 2px black;
 }
-/* .add:hover, .logout:hover {
-	background: linear-gradient( #900, #700);
-} */
+
 .delete {
 	position: sticky;
 	float: right;
 	top: 0;
-	right:0;
+	right:1%;
 	padding: 4px 1% 8px 1%;
 	color: white;
-	background: linear-gradient( #700, #600);
+	background: linear-gradient( #dc3545, #dc3545);
 	border: 0;
+	border-radius: 7px;
+	box-shadow: 2px 2px black;
 }
 .delete:hover {
-	background: red;
+	background: #dc3545;
 }
 header {
 	position: absolute;
@@ -67,13 +68,16 @@ header {
 }
 footer {
 	position: fixed;
-	bottom: 0;
+	bottom: 2%;
 	right: 0;
 	left: 0;
 	width:100%;
-	background: linear-gradient( #200, #000);
 	overflow: auto;
 	z-index: 999;
+}
+/* hide the scroll-bar */
+::-webkit-scrollbar { 
+    display: none; 
 }
 .contain {
 	width: 70%;
